@@ -31,13 +31,13 @@ Nx is designed to help you create and build enterprise grade Angular application
 Install the Angular CLI globally
 
 ```console
-npm install -g @angular/cli
+npm install -g @nrwl/cli
 ```
 
 or
 
 ```console
-yarn global add @angular/cli
+yarn global add @nrwl/cli
 ```
 
 ### Initial setup
@@ -57,14 +57,20 @@ yarn
 ### Running the application
 
 ```console
-ng serve
+nx serve
 ```
 
 ### Running tests for the application
 
 ```console
-ng test
+nx test
 ```
+
+### Running end-to-end test for the application
+```console
+nx e2e conduit-e2e
+```
+
 
 [Watch a 5-minute video on how to get started with Nx.](http://nrwl.io/nx)
 
